@@ -26,13 +26,13 @@ export const projects = [
     title: "gobeklikoc.com",
     year: "in progress",
     links: "https://gkv3.vercel.app/",
-    img: "./img/gobekli.png",
+    img: "/img/gobekli.png",
   },
   {
     title: "vamos - ai video management",
     year: "in progress",
     links: "https://vamos-seven.vercel.app/dashboard",
-    img: "./img/vamos.png",
+    img: "/img/vamos.png",
   },
   {
     title: "csv to ical converter",

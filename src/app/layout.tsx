@@ -1,6 +1,5 @@
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
-import { siteConfig } from "@/config/site";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
   },
   description:
     "Design Engineer and Frontend Developer specializing in modern web applications and user interfaces",
-  metadataBase: new URL("https://ser.in"),
+  metadataBase: new URL("https://egeser.in"),
   keywords: [
     "Design Engineer",
     "Frontend Developer",
@@ -24,21 +23,21 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Egecan Serin",
-      url: "https://ser.in",
+      url: "https://egeser.in",
     },
   ],
   creator: "Egecan Serin",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ser.in",
+    url: "https://egeser.in",
     title: "Egecan Serin — Design Engineer",
     description:
       "Design Engineer and Frontend Developer specializing in modern web applications and user interfaces",
     siteName: "Egecan Serin",
     images: [
       {
-        url: "https://ser.in/og.jpg",
+        url: "https://egeser.in/og.jpg",
         width: 1200,
         height: 630,
         alt: "Egecan Serin — Design Engineer",
@@ -51,14 +50,14 @@ export const metadata: Metadata = {
     description:
       "Design Engineer and Frontend Developer specializing in modern web applications and user interfaces",
     creator: "@nonzeroexitcode",
-    images: ["https://ser.in/og.jpg"],
+    images: ["https://egeser.in/og.jpg"],
   },
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
     apple: "/favicon.png",
   },
-  manifest: "https://ser.in/site.webmanifest",
+  manifest: "https://egeser.in/site.webmanifest",
   robots: {
     index: true,
     follow: true,
