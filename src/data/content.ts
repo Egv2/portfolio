@@ -25,13 +25,13 @@ export const projects = [
   {
     title: "gobeklikoc.com",
     year: "in progress",
-    links: "https://gkv3.vercel.app/",
+    links: "https://gobeklikoc.com",
     img: "/img/gobekli.png",
   },
   {
     title: "vamos - ai video management",
     year: "in progress",
-    links: "https://vamos-seven.vercel.app/dashboard",
+    links: "https://vmsai.xyz/dashboard",
     img: "/img/vamos.png",
   },
   {
